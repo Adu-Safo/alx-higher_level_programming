@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 class Square:
-    """Represent a square.
+    """Represents a square.
     Private instance attribute: size:
         - property def size(self)
         - property setter def size(self, value)
@@ -19,7 +19,7 @@ class Square:
 
         @size.setter
         def size(self, value):
-            """Sets the size to value>"""
+            """Sets the size to value"""
             if not isinstance(value, int):
                 raise TypeError("size must be an integer")
             elif value < 0:
