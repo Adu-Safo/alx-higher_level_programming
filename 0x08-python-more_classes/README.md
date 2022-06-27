@@ -4,3 +4,4 @@
 File | Description
 ---- | -----------
 [0-rectangle.py](./0-rectangle.py) | Python class that defines a rectangle (empty)
+
